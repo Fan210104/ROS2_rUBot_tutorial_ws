@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch the Turtlesim node -->
+    <node pkg="turtlesim" exec="turtlesim_node" name="turtlesim" output="screen"/>
+
+    <!-- Launch the custom move_turtle node -->
+    <node pkg="ros2_move_turtle" exec="move_turtle" name="move_turtle" output="screen"/>
+</launch>
